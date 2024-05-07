@@ -1,10 +1,13 @@
-*{
-    margin: 0px;
-    padding: 0px;
+body {
+    max-width: 700px; 
+    margin: 0 auto; 
+    padding: 0 10px; 
 }
+
 .mhead{
     background:#151515;
     height: 54px;
+    width: 100%;
 } 
 .logo{
     width: 120px;
@@ -42,46 +45,52 @@
 
 
 
-
-
-.logo-1 img{
-    width: 350px;
-    height: 170px;
+.logo-1 img {
+    width: 70%; 
+    height: 200px; 
     border-radius: 20px;
-    margin-bottom: 30px;
+    margin: 20px;
+   
 }
-.first-img img{
-    
-    width: 550px;
-    align-items: flex-start;
+.first-img img {
+    width: 100%;
     margin-top: 40px;
-    margin-left: 50px;
+   
 }
-.login{
+
+.login {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(17rem,auto));
-    gap: 1.4rem;
-}
-.form-box-login{
-    width: 80%;
-    padding: 20px;
-    background-color: gray;
-    border-radius: 25px;
+    gap: 1.0rem;
 }
 
-.form-box-login h2{
+.form-box-login {
+    width: 100%; 
+    background-color: rgb(124, 123, 123);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.form-box-login h2 {
     font-size: 2rem;
     color: black;
     text-align: center;
+    
 }
+
+.input-box {
+    position: relative;
+    width: 80%; 
+    margin-bottom: 20px;
+}
+
 .input-box{
     position: relative;
-    width: 80%;
-    height: 50px;
-    border-bottom: 2px solid black;
+    height: 40px;
+   
     border-radius: 20px;
     margin: 30px 30px;
-    background-color: white;
+    background-color: rgb(204, 201, 201);
 }
 .input-box label {
     position: absolute;
@@ -191,33 +200,29 @@
 
 .select{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(25rem,auto));
-    gap: 0.1rem;
+    grid-template-columns: repeat(auto-fit,minmax(17rem,auto));
+    gap: 1.0rem;
 }
 
 .second-img img{
-    width: 45%;
-    margin: 100px;
+    width: 100%;
+    margin-top: 120px;
 }
 .selection{
-    width: 100%;
-    height: 300px;
     margin-top: 100px;
-    margin-left: -150px;
-    background-color: rgb(223, 220, 220);
-    border-radius: 25px;
     font-size: 2.5rem;
     padding-bottom: 10px;
     padding-top: 70px;
 }
 .selection label {
-    margin:  100px;
+   margin-left: 60px;
    
 }
 .selection button{
     font-size: 1.7rem;
     padding: 0 15px;
     border-radius: 13px;
+  
 }
 .selection .next{
     border: none;
