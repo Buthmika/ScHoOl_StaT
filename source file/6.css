@@ -40,3 +40,22 @@
     float: left;
     padding-left: 20px;
 }
+.Thank img{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+body{
+    width: 700px;
+    padding-left: 300px;
+}
+.Thank{
+    padding-left: 200px;
+    padding-top: 200px;
+}
+p{
+    text-align: center;
+    padding-top: 80px;
+    font-size: larger;
+    font-weight: bolder;
+}
