@@ -1,19 +1,18 @@
-body {
-    max-width: 700px; 
-    margin: 0 auto; 
-    padding: 0 10px; 
+*{
+    margin: 0px; 
+    padding: 0px; 
+   
 }
 .logo-1 img {
-    width: 70%; 
-    height: 200px; 
+    width: 20%; 
+    height: 150px; 
     border-radius: 20px;
     margin: 20px;
    
 }
 .first-img img {
-    width: 100%;
-    margin-top: 40px;
-   
+    width: 80%;
+    margin-left: 200px;
 }
 
 .login {
@@ -23,36 +22,28 @@ body {
 }
 
 .form-box-login {
-    width: 100%; 
+    width: 50%; 
     background-color: rgb(124, 123, 123);
     border-radius: 20px;
     padding: 10px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+  margin-right: 300px;
+   height: 350px;
+   
 }
 
 .form-box-login h2 {
     font-size: 2rem;
     color: black;
     text-align: center;
+   
     
 }
 
-.input-box {
-    position: relative;
-    width: 80%; 
-    margin-bottom: 20px;
-}
 
-.input-box{
-    position: relative;
-    height: 40px;
-   
-    border-radius: 20px;
-    margin: 30px 30px;
-    background-color: rgb(204, 201, 201);
-}
-.input-box label {
+.inputt-box label {
     position: absolute;
-    top: 50%;
     left: 5px;
     transform: translateY(-50%);
     font-size: 1em;
@@ -60,16 +51,17 @@ body {
     font-weight: 600;
     pointer-events: none;
     transition: .5s;
+   
+    
 }
 
-.input-box input:focus~label,
-.input-box input:valid~label {
+.inputt-box input:focus~label,
+.inputt-box input:valid~label {
     top: -10px;
 }
 
-.input-box input{
-    width: 100%;
-    height: 100%;
+.inputt-box input{
+   
     background: transparent;
     border: none;
     outline: none;
@@ -77,15 +69,26 @@ body {
     color: black;
     font-weight: 550;
     padding: 0 25px 0 5px;
+    border-radius: 20px;
+   
+    height: 40px;
+}
+.inputt-box {
+    position: relative;
+    width: 80%;
+    border-radius: 20px;
+    margin: 30px 30px;
+    background-color: rgb(209, 207, 207);
+    
 }
 
 .remember-forgot{
     font-size: 0.9em;
     color: black;
     font-weight: 500;
-    margin: -15px 0 15px;
+    margin: -10px 0 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
 }
 
 .remember-forgot label input{
@@ -130,28 +133,6 @@ body {
     text-decoration: underline;
 }
 
-@media(max-width:768px){
-    .logo img{
-        max-width: 70%;
-    }
-    .first-img img{
-        max-width: 80%;
-    }
-    .form-box-login{
-        width: 80%;
-    }
-   
-}
 
-@media(max-width:840px){
-    .logo img{
-        max-width: 80%;
-    }
-    .first-img img{
-        max-width: 90%;
-    }
-    .form-box-login{
-        width: 80%;
-    }
-   
-}
+
+
