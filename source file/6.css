@@ -1,8 +1,9 @@
 *{
-    margin: 0px;
-    padding: 0px;
-
+   
+    margin: 0px; 
+    padding: 0px; 
 }
+
 .mhead{
     background:#151515;
     height: 54px;
@@ -39,4 +40,14 @@
  .dash{
     float: left;
     padding-left: 20px;
+}
+
+.thank_img img{
+    margin-top: 60px;
+    width: 30%;
+}
+
+.thank_txt{
+    font-size: 22px;
+    text-align: center;
 }
