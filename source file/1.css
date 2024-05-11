@@ -1,0 +1,138 @@
+*{
+    margin: 0px; 
+    padding: 0px; 
+   
+}
+.logo-1 img {
+    width: 20%; 
+    height: 150px; 
+    border-radius: 20px;
+    margin: 20px;
+   
+}
+.first-img img {
+    width: 80%;
+    margin-left: 200px;
+}
+
+.login {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(17rem,auto));
+    gap: 1.0rem;
+}
+
+.form-box-login {
+    width: 50%; 
+    background-color: rgb(124, 123, 123);
+    border-radius: 20px;
+    padding: 10px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+  margin-right: 300px;
+   height: 350px;
+   
+}
+
+.form-box-login h2 {
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+   
+    
+}
+
+
+.inputt-box label {
+    position: absolute;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: black;
+    font-weight: 600;
+    pointer-events: none;
+    transition: .5s;
+   
+    
+}
+
+.inputt-box input:focus~label,
+.inputt-box input:valid~label {
+    top: -10px;
+}
+
+.inputt-box input{
+   
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: black;
+    font-weight: 550;
+    padding: 0 25px 0 5px;
+    border-radius: 20px;
+   
+    height: 40px;
+}
+.inputt-box {
+    position: relative;
+    width: 80%;
+    border-radius: 20px;
+    margin: 30px 30px;
+    background-color: rgb(209, 207, 207);
+    
+}
+
+.remember-forgot{
+    font-size: 0.9em;
+    color: black;
+    font-weight: 500;
+    margin: -10px 0 10px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.remember-forgot label input{
+    accent-color: black;
+    margin-right: 3px;
+}
+
+.remember-forgot a{
+    color: black;
+    text-decoration: none;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+.btn{
+    width: 80%;
+    height: 45px;
+    background: black;
+    border: none;
+    margin: 0px 30px;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1em;
+    color: white;
+    font-weight: 500;
+}
+.login-register{
+    font-size: 0.9em;
+    color: black;
+    text-align: center;
+    font-weight: 400;
+    margin: 10px 0 10px;
+}
+
+.login-register p a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+.login-register p a:hover{
+    text-decoration: underline;
+}
+
+
+
+
