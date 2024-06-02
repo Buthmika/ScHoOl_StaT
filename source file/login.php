@@ -20,7 +20,7 @@ if (isset($_POST['submit'])) {
         $_SESSION['id'] = $id;
 
         // Redirect to a protected page
-        header('Location: dashboard.php');
+        header('Location:2.html');
         exit();
     } else {
         // Invalid credentials, redirect back to the login page with an error message
