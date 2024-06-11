@@ -51,3 +51,34 @@
     font-size: 22px;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+   
+    .shead ul {
+        gap: 15px;
+    }
+
+    .shead ul li {
+        padding-left: 0;
+    }
+
+
+}
+
+@media (max-width: 480px) {
+    .mhead, .shead {
+        justify-content: center;
+    }
+
+   
+
+    .shead ul {
+        flex-direction: column;
+        gap: 10px;
+        padding-right: 0;
+    }
+
+    .shead ul li {
+        padding-left: 0;
+    }
+}
