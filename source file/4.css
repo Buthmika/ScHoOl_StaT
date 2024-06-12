@@ -97,3 +97,70 @@ input[type="submit"] {
   .Hiii{
     background: linear-gradient(to top,rgba(216, 215, 215, 0.5)50%,rgba(216, 215, 215, 0.5)50%);
   }
+
+  @media (max-width: 768px) {
+    .shead ul {
+        gap: 10px;
+    }
+
+    .shead ul li {
+        padding-left: 0;
+    }
+
+    .p3 {
+        padding: 20px 10px;
+    }
+
+    .p3 label {
+        max-width: 100%;
+    }
+
+    .p3 input[type="text"], .p3 input[type="email"] {
+        max-width: 100%;
+    }
+
+    .Correct {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .submit {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .mhead, .shead {
+        justify-content: center;
+    }
+
+    .shead ul {
+        flex-direction: column;
+        gap: 10px;
+        padding-right: 0;
+    }
+
+    .Hiii {
+        padding: 15px 5px;
+    }
+
+    .Hi {
+        font-size: 24px;
+    }
+
+    .provide {
+        font-size: medium;
+    }
+
+    .p3 {
+        padding: 15px 10px;
+    }
+
+    .Correct {
+        font-size: small;
+    }
+
+    .submit input[type="submit"] {
+        font-size: medium;
+    }
+}

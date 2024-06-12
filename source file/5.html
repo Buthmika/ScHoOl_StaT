@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>School Stat</title>
-        <link rel="stylesheet" href="3.css">
+        
     </head>
     <body>
         <div class="mhead">
@@ -111,6 +111,38 @@ button {
     display: block;
     margin-top: 7px;
     border-radius: 10px;
+}
+
+
+@media (max-width: 768px) {
+   
+   .shead ul {
+       gap: 15px;
+   }
+
+   .shead ul li {
+       padding-left: 0;
+   }
+
+
+}
+
+@media (max-width: 480px) {
+   .mhead, .shead {
+       justify-content: center;
+   }
+
+  
+
+   .shead ul {
+       flex-direction: column;
+       gap: 10px;
+       padding-right: 0;
+   }
+
+   .shead ul li {
+       padding-left: 0;
+   }
 }
     </style>
 </head>
