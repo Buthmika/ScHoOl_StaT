@@ -129,12 +129,10 @@
     }
 }
 
-/* Hide the default radio button */
 .box input[type="radio"] {
     display: none;
 }
 
-/* Create a custom radio button */
 .box label {
     position: relative;
     padding-left: 25px;
@@ -156,13 +154,11 @@
     background: white;
 }
 
-/* Custom radio button when checked */
 .box input[type="radio"]:checked + label::before {
     background: #4CAF50;
     border-color: #4CAF50;
 }
 
-/* Inner dot when checked */
 .box input[type="radio"]:checked + label::after {
     content: '';
     position: absolute;

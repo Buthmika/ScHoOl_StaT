@@ -1,24 +1,20 @@
 <?php
 $servername = "localhost";
-$username = "root"; // Replace with your MySQL username
-$password = ""; // Replace with your MySQL password
+$username = "root"; 
+$password = ""; 
 $dbname = "school_stat";
 
-// Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// Get form data
 $first_name = $_POST['first_name'];
 $student_index = $_POST['index'];
 $grade = $_POST['grade'];
 $email = $_POST['email'];
 
-// Fetch student data
 $sql = "SELECT year, math_marks, english_marks, history_marks FROM students WHERE first_name='$first_name' AND student_index='$student_index' AND grade='$grade' AND email='$email'";
 $result = $conn->query($sql);
 
