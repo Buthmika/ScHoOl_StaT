@@ -131,3 +131,45 @@
         padding-left: 0;
     }
 }
+.box input[type="radio"] {
+    display: none;
+}
+
+/* Create a custom radio button */
+.box label {
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 20px;
+}
+
+.box label::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    background: white;
+}
+
+/* Custom radio button when checked */
+.box input[type="radio"]:checked + label::before {
+    background: #4CAF50;
+    border-color: #4CAF50;
+}
+
+/* Inner dot when checked */
+.box input[type="radio"]:checked + label::after {
+    content: '';
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: white;
+}
