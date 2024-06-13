@@ -57,10 +57,6 @@
 .selection {
     font-size: 1.5rem;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 300px; /* Adjust as needed */
 }
 
 .selection label {
@@ -77,7 +73,6 @@
     color: rgb(177, 62, 62);
     font-weight: 600;
     background-color: rgb(156, 154, 154);
-    align-self: center; /* Center the button horizontally */
 }
 
 @media (max-width: 768px) {
@@ -177,7 +172,4 @@
     height: 10px;
     border-radius: 50%;
     background: white;
-}
-.selection{
-    padding-top: 150px;
 }
