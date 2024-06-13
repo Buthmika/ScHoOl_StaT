@@ -64,7 +64,7 @@ body {
     border: none;
     outline: none;
     border-radius: 20px;
-    text-align: center; /* Centering text */
+    text-align: center; 
 }
 
 .inputt-box label {
